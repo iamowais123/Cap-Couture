@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 70px;
+    padding-top: 90px;
+    gap: 70px;
+}
+#left{
+    height: 100%;
+    width: 49%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left h1{
+    font-size: 8vw;
+    font-weight: 400;
+    line-height: 9vw;
+    /* background-color: red; */
+    margin-bottom: -20px;
+}
+
+#bottom-left{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+    margin-top: 60px;
+}
+
+#color {
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 6px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#color1{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#color2{
+    background-color: rgb(115, 255, 0);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#color h5{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#left h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.8vw;
+}
+
+#left p{
+    width: 80%;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #333;
+    line-height: 2.5vw;
+}
+
+#right{
+    height: 100%;
+    width: 30%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+#right-top{
+    width: 100%;
+    height: 40px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#right-top h4{
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+#right-top h5{
+    font-size: 0.8vw;
+}
+#right-top h5 i{
+    color: black;
+}
+
+#right img{
+    width: 100%;
+    height: 91%;
+    object-fit: cover;
+}
+
+#black-gola{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(49, 47, 47);
+    position: absolute;
+    top: 28%;
+    right: -20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#black-gola h5{
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+
+#rotated{
+    position: absolute;
+    left:-15%;
+    bottom: 4%;
+    /* background-color: red; */
+    rotate: -90deg;
+    transform-origin: 0 0;
+    font-size: 2.5vw;
+    font-weight: 500;
+}
+
+/* making responsive */
+
+@media (max-width : 600px){
+    #main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 0 30px;
+        padding-top: 20px;
+        gap: 35px;
+    }
+        
+    #left{
+        height: fit-content;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #left h1{
+        font-size: 12vw;
+        font-weight: 400;
+        line-height: 12vw;
+        /* background-color: red; */
+        margin-bottom: -15px;
+    }
+
+    #bottom-left{
+        width: 100%;
+        height: 50%;
+        /* background-color: yellow; */
+        margin-top: 35px;
+    }
+
+    #left h2{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 3vw;
+    }
+
+    #left p{
+        width: 80%;
+        font-size: 2vw;
+        font-weight: 600;
+        color: #333;
+        line-height: 3vw;
+    }
+        
+    #right{
+        height: 42%;
+        width: 100%;
+        /* background-color: blue; */
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #right-top{
+        width: 100%;
+        height: 50px;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+
+    #right-top h4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #right-top h5{
+        font-size: 10px;
+    }
+    #right-top h5 i{
+        color: black;
+    }
+
+    #right img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #black-gola{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        color: #fff;
+        background-color: rgb(49, 47, 47);
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(50%,-60%);
+    }
+
+    #black-gola h5{
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    #rotated{
+        display: none;
+    }
+}
