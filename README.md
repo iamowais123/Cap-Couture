@@ -1,21 +1,21 @@
-Cotton Essentials - Product Showcase
+Cotton Weave - Responsive Fashion Product Page
 
-Cotton Essentials is a clean, modern product showcase designed to highlight the beauty of cotton-based fashion accessories. This project focuses on a cotton twill cap, combining minimalistic aesthetics with a user-friendly shopping experience.
+Cotton Weave is a fully responsive product page built using HTML and CSS, showcasing a modern, minimalistic design for an e-commerce fashion product. The layout focuses on clean typography, product details, and an intuitive "Add to Bag" feature, providing an engaging shopping experience.
 
-Key Features :
+Features:
 
-Product Display: Highlight the product with an elegant, large image and minimalist text.
+Fully Responsive: Ensures a seamless experience across all devices, from mobile to desktop.
 
-Color Options: Static color options to visualize product variants.
+Minimalist UI: Highlights key product information with a sleek and professional layout.
 
-Product Details: Clear, concise product information and price display.
+Product Showcase: Displays product image, price, rating, and color options in a user-friendly design.
 
-Add to Cart: Seamless "Add to Bag" button for a straightforward shopping experience.
+Cross-Browser Compatibility: Works smoothly on major browsers like Chrome, Firefox, and Safari.
 
-Ratings: Simple star rating system for easy product evaluation.
+Technologies Used:
 
-Tech Stack
+HTML5
 
-HTML5 & CSS3: Structure and style the page with clean, responsive design.
+CSS3
 
-This project serves as a template for any fashion or retail website, delivering a sleek and intuitive shopping interface.
+This project emphasizes the power of simple HTML and CSS to build visually appealing, fully responsive product pages without the need for complex frameworks or JavaScript.
